@@ -22,7 +22,7 @@ export default function Right() {
       setErrorEmail("A format is not valid.");
       setError("");
       setErrorMessage('')
-    } else if (message.trim.length < 14) {
+    } else if (message.trim().length < 14) {
       setErrorMessage("Champ requires more than 14 characters.");
       setError("");
       setErrorEmail("");
