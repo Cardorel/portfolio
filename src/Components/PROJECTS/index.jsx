@@ -32,18 +32,18 @@ export default function Project() {
             number="2"
           />
           <ImgProject
-            title="Test task"
+            title="Ukrafrik hotel"
             description="Ukrafrik is one of my first project in React JS."
             imgSrc="https://i.ibb.co/gRGrrMM/ukrafrik-hotel.png"
             link="ukrafrik-hotel.ho.ua"
             number="3"
           />
            <ImgProject
-            title="Test task"
-            description="Ukrafrik is one of my first project in React JS."
+            title="Portofolio"
+            description="My portofolio is connected with a database."
             imgSrc="https://i.ibb.co/cyLRFx4/portofolio.png"
-            link="ukrafrik-hotel.ho.ua"
-            number="3"
+            link="https://yurtik-supreme.netlify.app/"
+            number="4"
           />
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function ImgProject({
         <div className="project_contenu">
           <h3>Project {number} <span> {title}</span></h3>
             <p>{description}</p>
-            <a href={link}><button>SEE PROJECT</button></a>
+            <a rel="noopener noreferrer" target="_blank" href={link}><button>SEE PROJECT</button></a>
         </div>
       </div>
     </div>
