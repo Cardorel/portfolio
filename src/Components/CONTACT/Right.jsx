@@ -8,40 +8,46 @@ export default function Right() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [errorEmail, setErrorEmail] = useState("");
-  const feedback = document.querySelector('.feedback')
-  const paragraphFeedback = document.createElement('p');
-
-
+  const [errorMessage, setErrorMessage] = useState("");
+  const feedback = document.querySelector(".feedback");
+  const paragraphFeedback = document.createElement("p");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (name.length < 8) {
-      setError("Your fullname must contain more 8 characters.");
+      setError("More 7 characheters is required");
+      setErrorMessage('')
+      setErrorEmail("");
     } else if (!email.match(regexEmail)) {
       setErrorEmail("A format is not valid.");
-    } 
-    else {
+      setError("");
+      setErrorMessage('')
+    } else if (message.trim.length < 14) {
+      setErrorMessage("Champ requires more than 14 characters.");
+      setError("");
+      setErrorEmail("");
+    } else {
       createDataInFirebase({ name, email, message });
       setError("");
       setErrorEmail("");
       setName("");
       setEmail("");
       setMessage("");
+      setErrorMessage('')
 
       //Create a paragraph for a feedback
 
-      paragraphFeedback.classList.add('feedback_message');
-      paragraphFeedback.innerHTML = 'Thank you for your message and i will contact you soon.'
+      paragraphFeedback.classList.add("feedback_message");
+      paragraphFeedback.innerHTML =
+        "Thank you for your message and i will contact you soon.";
 
-      feedback.appendChild(paragraphFeedback)
-
+      feedback.appendChild(paragraphFeedback);
 
       //Remove a feel back
       setTimeout(() => {
-        feedback.removeChild(paragraphFeedback)
+        feedback.removeChild(paragraphFeedback);
       }, 8000);
     }
-
   };
 
   return (
@@ -86,6 +92,9 @@ export default function Right() {
         placeholder="Message me..."
         onChange={(e) => setMessage(e.target.value)}
       />
+      <p className="error_message">
+        <small>{errorMessage}</small>
+      </p>
       <button>Send</button>
     </form>
   );
