@@ -81,3 +81,13 @@
     }
 }
 
+
+@media screen and (max-width: 900px) {
+    .home_container {
+
+        .home_title {
+            font-size: 120px !important;
+            line-height: 4rem !important;
+        }
+    }
+}

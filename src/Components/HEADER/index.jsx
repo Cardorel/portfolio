@@ -11,7 +11,6 @@ export default function Header() {
       element.addEventListener("click", () => {
         showMenu.classList.toggle("active");
         toggleMenu.classList.toggle("active");
-        document.body.classList.toggle('body')
       });
     });
   }, []);
@@ -22,7 +21,6 @@ export default function Header() {
 
     toggleMenu.classList.toggle("active");
     showMenu.classList.toggle("active");
-    document.body.classList.toggle('body')
   };
 
   return (

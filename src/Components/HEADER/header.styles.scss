@@ -2,9 +2,6 @@
 
 @import url('../SCSSCONFIG/config.scss');
 
-.body{
-    overflow: hidden;
-}
 
 .header {
     width: 100%;
@@ -68,6 +65,9 @@
 
 
 @media screen and (max-width: 900px) {
+    #root.scroll-hidden{
+        overflow: hidden;
+    }
     .nav_container {
         align-self: center;
         overflow: hidden;
@@ -133,8 +133,8 @@
 
                 li {
                     list-style: none;
-                    padding-top: 80px;
-                    font-size: 50px;
+                    padding-top: 60px;
+                    font-size: 40px;
                     font-weight: bolder;
                     margin-left: 0;
 

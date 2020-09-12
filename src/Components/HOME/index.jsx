@@ -63,7 +63,7 @@ export default function Home() {
           </h1>
         </div>
         <img
-          src="https://i.ibb.co/MyvWbYW/FB-IMG-1598735920790.jpg"
+          src="FB_IMG_1598735920790.jpg"
           alt="CardoImage"
           className="home_img"
         />
