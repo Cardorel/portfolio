@@ -1,0 +1,113 @@
+@import url('../SCSSCONFIG/config.scss');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+
+.about {
+    background-color: var(--white-color);
+    width: 100%;
+    .about_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &> h1 {
+            font-size: 30px;
+            padding-bottom: 2px;
+            text-align: center;
+    
+            display: grid;
+            justify-items: center;
+            align-items: center;
+    
+            &::after {
+                content: "";
+                width: 60px;
+                height: 3px;
+                display: block;
+                background-color: var(--blue-color);
+                margin-top: 8px;
+            }
+        }
+
+        p{
+            color: var(--text-color);
+        }
+
+        .about_content {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            text-align: initial;
+            padding: 4rem 0;
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+                text-align: center;
+                justify-self: center;
+                
+            }
+
+            .profil_content {
+                padding-bottom: 70px;
+                padding-right: 30px;
+
+                .who_I_am{
+                    font-family: 'Cabin Sketch', cursive;
+                }
+                .about_name {
+                    color: var(--blue-color);
+                    font-size: 30px;
+                }
+                .paragraph_about {
+                    font-size: 16px;
+                }
+            }
+
+            .network_icon{
+                margin-top: 30px;
+                a {
+                    color: var(--text-color);
+                    text-decoration: none;
+                    font-size: 20px;
+                    margin-right: 10px;
+
+                    i.bxl-facebook-circle:hover{
+                         color: #3b5999;
+                    }
+
+                    i.bxl-github:hover{
+                        opacity: 0.8;
+                    }
+
+                    i.bxl-linkedin:hover{
+                        color:#007bb5;
+                    }
+                }
+        }
+    }
+
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .about {
+        .about_content {
+            grid-template-columns: 1fr !important;
+            text-align: center !important;
+            img {
+                width: 30%;
+                height: 30%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .paragraph_about {
+                text-align: center;
+                font-size: 14px;
+            }
+        }
+    }
+}

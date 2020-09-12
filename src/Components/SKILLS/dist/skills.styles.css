@@ -1,0 +1,137 @@
+@import url("../SCSSCONFIG/config.scss");
+.skills_container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills_container h1 {
+  font-size: 30px;
+  padding-bottom: 2px;
+  border-bottom: 4px solid var(--blue-color);
+  text-align: center;
+}
+.skills_container .skills_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 225px;
+  justify-content: center;
+  align-items: center;
+}
+.skills_container .skills_content .tool_container {
+  width: 100%;
+  height: 3px;
+  background-color: var(--white-color);
+}
+.skills_container .skills_content .tool_container .html_skill {
+  width: 79%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .javascript_skill {
+  width: 53%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .cPlus_skill {
+  width: 38%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .CSharp_skill {
+  width: 51%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .Uniform_skill {
+  width: 59%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .reactJS_skill {
+  width: 71%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .sql_skill {
+  width: 41%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .github_skill {
+  width: 41%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .test_skill {
+  width: 39%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .scss_skill {
+  width: 61%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skills_content .tool_container .redux_skill {
+  width: 63%;
+  background-color: var(--blue-color);
+  height: 3px;
+}
+.skills_container .skill_language {
+  text-align: center;
+}
+.skills_container .skill_language > p {
+  padding: 58px 0;
+}
+.skills_container .skill_language .language_container {
+  width: 100%;
+}
+.skills_container .skill_language .language_container .language {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 225px;
+  text-align: left;
+  align-items: center;
+}
+.skills_container .skill_language .language_container .language .skill_french, .skills_container .skill_language .language_container .language .skill_english, .skills_container .skill_language .language_container .language .skill_ukr, .skills_container .skill_language .language_container .language .skill_russ {
+  display: flex;
+}
+.skills_container .skill_language .language_container .language .skill_french p, .skills_container .skill_language .language_container .language .skill_english p, .skills_container .skill_language .language_container .language .skill_ukr p, .skills_container .skill_language .language_container .language .skill_russ p {
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .skills_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_container .skills_content {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .skills_container .Developing_skill {
+    height: 100%;
+  }
+  .skills_container .Developing_skill p {
+    margin: 25px 0;
+  }
+  .skills_container .skill_language {
+    text-align: center;
+  }
+  .skills_container .skill_language > p {
+    padding: 0;
+  }
+  .skills_container .skill_language .language_container .language {
+    display: grid !important;
+    grid-template-rows: 1fr 1fr !important;
+  }
+}

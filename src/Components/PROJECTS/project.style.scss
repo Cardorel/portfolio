@@ -1,0 +1,117 @@
+@import url('../SCSSCONFIG/config.scss');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+
+.project_container {
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--white-color);
+    padding-bottom: 35px;
+
+    .header_project{
+        margin-bottom: 25px;
+        h1 {
+            font-size: 30px;
+            padding-bottom: 2px;
+            text-align: center;
+
+            display: grid;
+            justify-items: center;
+            align-items: center;
+
+            &::after {
+                content: "";
+                width: 65px;
+                height: 3px;
+                display: block;
+                background-color: var(--blue-color);
+                margin-top: 8px;
+            }
+        }
+
+        .sub_header{
+            font-family: 'Cabin Sketch', cursive;
+        }
+    }
+
+    .porject_img_content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr) , ;
+        overflow: hidden;
+    
+        .content_in_project {
+            position: relative;
+            overflow: hidden;
+            height: 250px !important;
+
+            img{
+                width: 100% !important;
+                object-fit: cover;
+                height: 250px !important;
+            }
+        }
+
+        .absolue_content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: -410px;
+          
+            display: grid !important;
+            justify-content: center;
+            align-items: center;
+            transition: all .5s ease;
+            background-color: rgba(47,41,51,0.9);
+            opacity: 0;
+
+            &:hover{
+                opacity: 1;
+                bottom: 0;
+            }
+ 
+            .project_contenu {
+        
+                span {
+                    font-weight: 400;
+                    font-family: 'Cabin Sketch', cursive;
+                    color: var(--text-color);
+                }
+
+                h3,
+                span,
+                p 
+                {
+                    color: #fff;
+                }
+
+                button {
+                    border-radius: 45px;
+                    padding: 10px;
+                    width: 168px;
+                    outline: none;
+                    border: 2px solid #fff;
+                    cursor: pointer;
+                    background-color: transparent;
+                    color: #fff;
+                    margin-top: 10px;
+                    font-size: 12px !important;
+                    font-weight: bold;
+
+                    &:hover{
+                        background-color: #fff;
+                        color: rgba(47,41,51,0.9);
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 499px) {
+    .porject_img_content{
+        display: block !important;
+    }
+}
