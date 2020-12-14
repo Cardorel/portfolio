@@ -26,10 +26,10 @@ export default function Language() {
               </p>
             </div>
             <div className="skill_deutch">
-              <p>Germany:</p>
+              <p>German:</p>
               <p>
                 <span role="img" aria-label="level">
-                  ⭐⭐
+                  ⭐
                 </span>
               </p>
             </div>
