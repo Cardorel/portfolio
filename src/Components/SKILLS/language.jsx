@@ -10,7 +10,7 @@ export default function Language() {
         <div className="language">
           <div className="language_left">
             <div className="skill_french">
-              <p>French:</p>
+              <p>French :</p>
               <p>
                 <span role="img" aria-label="level">
                   ⭐⭐⭐⭐⭐
@@ -18,7 +18,7 @@ export default function Language() {
               </p>
             </div>
             <div className="skill_ukr">
-              <p>Ukrainian:</p>
+              <p>Ukrainian :</p>
               <p>
                 <span role="img" aria-label="level">
                   ⭐⭐⭐⭐
@@ -26,7 +26,7 @@ export default function Language() {
               </p>
             </div>
             <div className="skill_deutch">
-              <p>German:</p>
+              <p>German :</p>
               <p>
                 <span role="img" aria-label="level">
                   ⭐
@@ -36,7 +36,7 @@ export default function Language() {
           </div>
           <div className="language_right">
             <div className="skill_english">
-              <p>English:</p>
+              <p>English :</p>
               <p>
                 <span role="img" aria-label="level">
                   ⭐⭐⭐
@@ -44,7 +44,7 @@ export default function Language() {
               </p>
             </div>
             <div className="skill_russ">
-              <p>Russian:</p>
+              <p>Russian :</p>
               <p>
                 <span role="img" aria-label="level">
                   ⭐⭐⭐
