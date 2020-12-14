@@ -34,7 +34,7 @@ export default function SkillsDevRight() {
         </div>
       </div>
       <div className="bainner">
-        <p>Excel, Photoshop, Microsoft word...</p>
+        <p>Excel , Microsoft word...</p>
         <div className="tool_container">
           <div className="tool_content redux_skill" />
         </div>

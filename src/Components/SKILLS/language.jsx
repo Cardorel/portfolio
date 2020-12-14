@@ -4,7 +4,7 @@ export default function Language() {
   return (
     <div className="skill_language">
       <div className="header_language">
-        <p>Language</p>
+        <p>Languages</p>
       </div>
       <div className="language_container">
         <div className="language">
@@ -22,6 +22,14 @@ export default function Language() {
               <p>
                 <span role="img" aria-label="level">
                   ⭐⭐⭐⭐
+                </span>
+              </p>
+            </div>
+            <div className="skill_deutch">
+              <p>Germany:</p>
+              <p>
+                <span role="img" aria-label="level">
+                  ⭐⭐
                 </span>
               </p>
             </div>

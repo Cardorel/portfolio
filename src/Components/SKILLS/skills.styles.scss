@@ -83,13 +83,13 @@
             }
 
             .Uniform_skill {
-                width: 59%;
+                width: 49.6%;
                 background-color: var(--blue-color);
                 height: 3px;
             }
 
             .reactJS_skill {
-                width: 61%;
+                width: 58.69%;
                 background-color: var(--blue-color);
                 height: 3px;
             }
@@ -143,13 +143,10 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 column-gap: 225px;
-                text-align: left;
-                align-items: center;
-
                 .skill_french,
                 .skill_english,
                 .skill_ukr,
-                .skill_russ {
+                .skill_russ , .skill_deutch{
                     display: flex;
 
                     p {

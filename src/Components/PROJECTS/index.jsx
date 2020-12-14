@@ -35,7 +35,7 @@ export default function Project() {
             title="Ukrafrik hotel"
             description="Ukrafrik is one of my first project in React JS."
             imgSrc="https://i.ibb.co/gRGrrMM/ukrafrik-hotel.png"
-            link="http://ukrafrik-hotel.ho.ua"
+            link="www.ukrafrik-hotel.ho.ua"
             number="3"
           />
            <ImgProject
