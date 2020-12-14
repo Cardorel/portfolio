@@ -42,7 +42,7 @@ export default function Project() {
             title="Portofolio"
             description="My portofolio is connected with a database."
             imgSrc="https://i.ibb.co/cyLRFx4/portofolio.png"
-            link="https://yurtik-supreme.netlify.app/"
+            link="http://yurtik-supreme.netlify.app/"
             number="4"
           />
         </div>
