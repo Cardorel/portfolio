@@ -35,14 +35,14 @@ export default function Project() {
             title="Ukrafrik hotel"
             description="Ukrafrik is one of my first project in React JS."
             imgSrc="https://i.ibb.co/gRGrrMM/ukrafrik-hotel.png"
-            link="https://ukrafrik-hotel.ho.ua"
+            link="http://ukrafrik-hotel.ho.ua"
             number="3"
           />
            <ImgProject
             title="Portofolio"
             description="My portofolio is connected with a database."
             imgSrc="https://i.ibb.co/cyLRFx4/portofolio.png"
-            link="http://yurtik-supreme.netlify.app/"
+            link="https://yurtik-supreme.netlify.app/"
             number="4"
           />
         </div>
