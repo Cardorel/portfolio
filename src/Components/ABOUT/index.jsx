@@ -26,7 +26,7 @@ useEffect(() => {
             <span className="font-weight-solving">I love to solve problems</span>. Whether it's finding the most elegant way to write a line of code or figuring out which chord fits best into a progression, I love the challenge of finding a way and discovering solutions. Maybe that's why I love writing , reading and the satisfaction that comes from finding just the right word; or thtat why I studied Geophysics at the university to figure out how our Earth works and no so long, i sarted to study psychology and rationality in my spare time to figure out how people think. As long as there's a problem to solve or a challenge to puzzle over, it's bound to be something I love!
             </p>
             <p>
-            -&#62; Wondering if I might be a good fit for your company? Check out <a href="Web-cv-cardorel-ngassaki.pdf">my resume</a> and ypu can find my social networks, below!
+            -&#62; Wondering if I might be a good fit for your company? Check out <a href="Web-cv-cardorel-ngassaki.pdf">my resume</a> and you can find my social networks, below!
             </p>
             <div className="network_icon">
               <a href="https://www.facebook.com/cardorel.ngassaki">
