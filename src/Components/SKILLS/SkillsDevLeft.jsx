@@ -10,7 +10,7 @@ export default function SkillsDevLeft() {
         </div>
       </div>
       <div className="bainner">
-        <p>Javascript</p>
+        <p>Javascript, JQuery</p>
         <div className="tool_container">
           <div className="tool_content javascript_skill" />
         </div>
@@ -22,13 +22,13 @@ export default function SkillsDevLeft() {
         </div>
       </div>
       <div className="bainner">
-        <p>C# , .Net Framework , MVVM , MVC</p>
+        <p>C#, .Net Framework, MVVM, MVC</p>
         <div className="tool_container">
           <div className="tool_content CSharp_skill" />
         </div>
       </div>
       <div className="bainner">
-        <p>Uniform , WPF , A.net , Entity Framework</p>
+        <p>WPF, ASP Net(Core), Entity Framework, Web Api</p>
         <div className="tool_container">
           <div className="tool_content Uniform_skill" />
         </div>

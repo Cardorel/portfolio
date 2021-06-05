@@ -45,6 +45,13 @@ export default function Project() {
             link="https://yurtik-supreme.netlify.app/"
             number="4"
           />
+          <ImgProject
+          title="Timer"
+          description="Small project. Built with Rxjs"
+          imgSrc="https://i.ibb.co/RYDZhmx/Horloge.jpg"
+          link="https://timer-r.netlify.app/"
+          number="5"
+        />
         </div>
       </div>
     </section>

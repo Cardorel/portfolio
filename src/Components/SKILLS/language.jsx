@@ -13,7 +13,7 @@ export default function Language() {
               <p>French :</p>
               <p>
                 <span role="img" aria-label="level">
-                  ⭐⭐⭐⭐⭐
+                  Native
                 </span>
               </p>
             </div>
@@ -21,7 +21,7 @@ export default function Language() {
               <p>Ukrainian :</p>
               <p>
                 <span role="img" aria-label="level">
-                  ⭐⭐⭐⭐
+                  C1
                 </span>
               </p>
             </div>
@@ -29,7 +29,7 @@ export default function Language() {
               <p>German :</p>
               <p>
                 <span role="img" aria-label="level">
-                  ⭐
+                  A2
                 </span>
               </p>
             </div>
@@ -39,7 +39,7 @@ export default function Language() {
               <p>English :</p>
               <p>
                 <span role="img" aria-label="level">
-                  ⭐⭐⭐
+                  B1
                 </span>
               </p>
             </div>
@@ -47,7 +47,7 @@ export default function Language() {
               <p>Russian :</p>
               <p>
                 <span role="img" aria-label="level">
-                  ⭐⭐⭐
+                  A2
                 </span>
               </p>
             </div>

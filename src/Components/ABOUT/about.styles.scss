@@ -32,6 +32,7 @@
 
         p{
             color: var(--text-color);
+            line-height: 30px;
         }
 
         .about_content {
@@ -53,6 +54,10 @@
             .profil_content {
                 padding-bottom: 70px;
                 padding-right: 30px;
+
+                .font-weight-solving{
+                    font-weight: bold;
+                }
 
                 .who_I_am{
                     font-family: 'Cabin Sketch', cursive;
