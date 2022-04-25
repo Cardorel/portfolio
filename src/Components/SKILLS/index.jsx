@@ -14,7 +14,7 @@ export default function Skills() {
   return (
     <section id="Skills">
       <div className="skills_container">
-        <h1>My skills</h1>
+        <h1>Skills</h1>
         <div className="Developing_skill">
           <p>Developing</p>
         </div>

@@ -57,15 +57,12 @@ export default function Home() {
       <div className="home_container">
         <div className="home_title_container">
           <div className="home-title-content">
-            <p>Good morning!</p>
+            <h1>Welcome!</h1>
             <p>
-              My name is <span>Cardorel Ngassaki</span>, and i'm a somophore
-              styding Computer science at{" "}
-              <a href="https://kiev.itstep.org/">IT Step Academy</a> in north-central of Ukraine along the Dnieper River(<a href="https://en.wikipedia.org/wiki/Kyiv">Kiev</a>).
+            Communicave, determined and creative. Determinaon is key in my eyes, not giving up before achieving whatever i set my mind
+            on. Communicang with others is one of my favourite things to do, always eager to learn from others and help others out
+            wherever possible.
             </p>
-          <div>
-            <a href="#About" className="go-to-about">About Me <span>-&#62;</span></a>
-          </div>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

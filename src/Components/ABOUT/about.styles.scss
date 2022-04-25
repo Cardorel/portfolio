@@ -5,6 +5,7 @@
 .about {
     background-color: var(--white-color);
     width: 100%;
+    padding-top: 45px;
     .about_container {
         display: flex;
         flex-direction: column;
@@ -100,6 +101,7 @@
 
 @media screen and (max-width: 900px) {
     .about {
+        padding-top: 20px;
         .about_content {
             grid-template-columns: 1fr !important;
             text-align: center !important;

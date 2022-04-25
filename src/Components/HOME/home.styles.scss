@@ -64,8 +64,13 @@
             align-items: center;
             .home-title-content{
                 width: 45%;
+                background-color: var(--white-color);
+                padding: 15px;
+                border-radius: 10px;
+                color: var(--blue-color);
+                -webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.32); 
+                box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.32);
                 p{
-                    line-height: 30px;
                     font-family: 'Cabin Sketch', cursive;
                     margin-bottom: 17px;
                 }
@@ -110,9 +115,9 @@
         .home_title_container{
             right: 0 !important;
             display: block;
-            top: 35%;
+            top: 40%;
         .home-title-content{
-            width: 75% !important;
+            width: 80% !important;
             margin: auto;
             P{
                 line-height: 17px;
