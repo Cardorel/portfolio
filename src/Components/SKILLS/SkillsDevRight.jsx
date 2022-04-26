@@ -4,7 +4,7 @@ export default function SkillsDevRight() {
   return (
     <div className="skills_right">
       <div className="bainner">
-        <p>React JS</p>
+        <p>React JS , Angular</p>
         <div className="tool_container">
           <div className="tool_content reactJS_skill" />
         </div>
