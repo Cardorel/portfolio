@@ -19,7 +19,8 @@ export default function Project() {
         </div>
         <div className="porject_img_content">
           {
-            data && data.map(({bgImage,description,source,title}) => <ImgProject
+            data && data.map(({ bgImage, description, source, title }, idx) => <ImgProject
+            key={idx}
             title={title}
             description={description}
             imgSrc={bgImage}
