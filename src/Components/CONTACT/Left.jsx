@@ -6,7 +6,7 @@ export default function Left(){
       <h3>EMAIL</h3>
       <p>cardorelngassaki@gmail.com</p>
       <h3>PHONE(S)</h3>
-      <p>+4915213871936</p>
+      <p>+49 15 21 38 71 936</p>
       <h3>ADRESSE(S)</h3>
       <p>Miesbach, Germany</p>
       <h3>Network</h3>
